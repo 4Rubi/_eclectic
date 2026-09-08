@@ -1,5 +1,12 @@
+@import "tailwindcss";
+
 :root{
   --green:#7BA05B;
   --pink:#E09FB3;
   --brown:#DAA06D;
+}
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: var(--green);
 }

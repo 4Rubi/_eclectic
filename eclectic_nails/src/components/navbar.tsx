@@ -1,7 +1,7 @@
 export default function Navbar() {
     return (
         <nav className="flex justify-between items-center py-6">
-            <div className="bg-[var(--pink)] rounded-full px-5 py-3 text-white text-sm">
+            <div className="bg-(--pink) rounded-full px-5 py-3 text-white text-sm">
                 Eclectic Nails
             </div>
 

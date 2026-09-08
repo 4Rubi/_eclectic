@@ -19,15 +19,15 @@ export default function Booking () {
                     </div>
                     {/*right side form*/}
                     <div className="w-full lg:w-1/2 flex flex-col items-center gap-6">
-                        <div className="bg-[var(--pink)] w-72 py-4 rounded-xl text-center">
+                        <div className="bg-(--pink) w-72 py-4 rounded-xl text-center">
                             <p>Friday-Sunday</p>
                         </div>
 
-                        <div className="bg-[var(--pink)] w-72 py-4 rounded-xl text-center">
+                        <div className="bg-(--pink) w-72 py-4 rounded-xl text-center">
                             <p>9:00am-5:00pm</p>
                         </div>
 
-                        <div className="bg-[var(--pink)] w-72 py-4 rounded-xl text-center">
+                        <div className="bg-(--pink) w-72 py-4 rounded-xl text-center">
                             <p>Daystar University</p>
                         </div>
 
