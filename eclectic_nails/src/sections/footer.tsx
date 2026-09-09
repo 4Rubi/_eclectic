@@ -14,6 +14,7 @@ export default function Footer() {
         <div className="flex gap-8 text-white text-sm">
           <a href="#home">Home</a>
           <a href="#services">Services</a>
+          <a href="#design-tiers">Design Tiers</a>
           <a href="#booking">Booking</a>
           <a href="#contact">Contact</a>
         </div>

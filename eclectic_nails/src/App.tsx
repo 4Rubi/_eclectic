@@ -1,6 +1,7 @@
 import Hero from "./sections/hero"
 import Navbar from "./components/navbar"
 import Services from "./sections/services"
+import DesignTiers from "./sections/designtiers"
 import Booking from "./sections/booking"
 import Footer from "./sections/footer"
 
@@ -13,6 +14,7 @@ export default function App() {
         <Navbar />
         <Hero />
         <Services />
+        <DesignTiers/>
         <Booking />
         <Footer />
       </div>

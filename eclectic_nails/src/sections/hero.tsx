@@ -17,7 +17,7 @@ export default function Hero () {
                         <li>• Best Services</li>
                     </ul>
                     <div className="mt-10">
-                        <Button text="Explore Services"/>
+                        <Button text="Explore Services" href="#services"/>
                     </div>
                 </div>
                 {/*right content*/}

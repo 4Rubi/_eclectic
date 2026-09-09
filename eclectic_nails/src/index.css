@@ -5,6 +5,9 @@
   --pink:#E09FB3;
   --brown:#DAA06D;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
   font-family: "Quicksand", sans-serif;

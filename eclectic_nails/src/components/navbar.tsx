@@ -6,9 +6,10 @@ export default function Navbar() {
             </div>
 
             <div className="navbar hidden md:flex gap-8 text-black text-sm ">
-                <a>Home</a>
-                <a>Services</a>
-                <a>Booking</a>
+                <a href="#home">Home</a>
+                <a href="#services">Services</a>
+                <a href="#design-tiers">Design Tiers</a>
+                <a href="#booking">Booking</a>
             </div>
         </nav>
     );
