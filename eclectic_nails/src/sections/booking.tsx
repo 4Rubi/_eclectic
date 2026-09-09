@@ -1,5 +1,9 @@
 import Button from "../components/button";
 import Image from "../assets/idcover.png";
+
+const schedule = [
+    { day: "Friday-Sunday", time: "9:00am-5:00pm", location: "Daystar University" },
+];
 export default function Booking () {
     return (
         <section id="booking" className="min-h-screen flex flex-col justify-center py-20">
@@ -24,7 +28,7 @@ export default function Booking () {
                         </div>
 
                         <div className="bg-(--pink) w-72 py-4 rounded-xl text-center">
-                            <p>9:00am-5:00pm</p>
+                            <p>(time)</p>
                         </div>
 
                         <div className="bg-(--pink) w-72 py-4 rounded-xl text-center">

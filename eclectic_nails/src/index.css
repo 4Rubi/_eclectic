@@ -1,12 +1,42 @@
 @import "tailwindcss";
 
 :root{
-  --green:#7BA05B;
+  --green:#9fb878;
   --pink:#E09FB3;
   --brown:#DAA06D;
 }
 body {
   margin: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "Quicksand", sans-serif;
   background: var(--green);
+}
+.logo {
+  content: "";
+  background: var(--pink);
+  width:3em;
+  height:2.5em;
+  font-size: 1.25rem;
+  font-family: "Special Gothic Expanded One", sans-serif;
+  border-radius: 50%;
+
+}
+.navbar :after {
+  content: "";
+  background: var(--pink);
+  display:block;
+  width:0;
+  height:4px;
+  font-size: 1.25rem;
+  font-weight: bold;
+  border-radius: 50%;
+  scale: 1.3;
+}
+
+.navbar :hover:after {
+  width: 100%;
+  transition: width 0.3s ease-out;
+}
+.navbar :hover {
+  scale: 1.2;
+  transition: scale 0.3s ease-out;
 }

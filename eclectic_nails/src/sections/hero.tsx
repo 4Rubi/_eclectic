@@ -7,11 +7,11 @@ export default function Hero () {
         <section id="home" className="min-h-[85vh] flex items-center">
             <div className="w-full flex felx-col-reverse lg:flex-row items-center justify-between gap-12">
                 {/*left content*/}
-                <div className="text-white w-full lg:w-1/2">
-                    <h1 className="text-3xl md:text-5xl font-bold tracking-[.45em] text-var[(--pink)] uppercase mb-8">
+                <div className="text-black w-full lg:w-1/2">
+                    <h1 className="text-3xl md:text-5xl font-bold tracking-[.45em] black text-var[(--pink)] uppercase mb-8">
                         Eclectic Nails
                     </h1>
-                    <ul className="space-y-3 text-sm md:text-base font-light">
+                    <ul className="space-y-3 text-sm md:text-base text-white font-light">
                         <li>• Professional Nail Services</li>
                         <li>• Affordable Prices</li>
                         <li>• Best Services</li>
@@ -22,7 +22,7 @@ export default function Hero () {
                 </div>
                 {/*right content*/}
                 <div className="w-full lg:w-1/2">
-                    <img src={Image} alt="Eclectic Nails avatar" className="w-[230px] md:w-[320px] lg:w-[420px] object-contain" />
+                    <img src={Image} alt="Eclectic Nails avatar" className="w-[250px] md:w-[320px] lg:w-[420px] object-contain" />
                 </div>
             </div>
         </section>
