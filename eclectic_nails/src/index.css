@@ -4,13 +4,14 @@
   --green:#9fb878;
   --pink:#E09FB3;
   --brown:#DAA06D;
+  --wwhite:#F0F7EE;
 }
 html {
   scroll-behavior: smooth;
 }
 body {
   margin: 0;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Patrick Hand SC", sans-serif;
   background: var(--green);
 }
 .logo {
@@ -23,12 +24,18 @@ body {
   border-radius: 50%;
 
 }
+.navbar {
+  font-family: "Patrick Hand SC", sans-serif;
+  font-size: 1.25rem;
+  font-weight: light;
+}
 .navbar :after {
   content: "";
   background: var(--pink);
   display:block;
   width:0;
   height:4px;
+  font-family: "Patrick Hand SC", sans-serif;
   font-size: 1.25rem;
   font-weight: bold;
   border-radius: 50%;
@@ -37,9 +44,9 @@ body {
 
 .navbar :hover:after {
   width: 100%;
-  transition: width 0.3s ease-out;
+  transition: width 0.5s ease-out;
 }
 .navbar :hover {
   scale: 1.2;
-  transition: scale 0.3s ease-out;
+  transition: scale 0.5s ease-out;
 }

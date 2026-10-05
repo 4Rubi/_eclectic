@@ -1,21 +1,24 @@
+import Button from "../components/button";
+
+
 const tiers = [ 
     {
-        tier: "",
-        name: "",
-        price: "",
+        tier: "Tier 1",
+        name: "Simple",
+        price: "Ksh.(800-1000)",
         items: ["French Tips", "Swirls", "Polka Dots", "Accent Nails", "Cat eye"],
     },
     {
-        tier: "",
-        name: "",
-        price: "",
+        tier: "Tier 2",
+        name: "Detailed",
+        price: "Ksh.(1000-1500)",
         items: ["Isolated Chrome", "Animal Print", "Simple 3D Art", "Multicolor Auras", "Layered Designs"],
     },
     {
-        tier: "",
-        name: "",
-        price: "",
-        items: ["", "", "", "", ""],
+        tier: "Tier 3",
+        name: "Premium",
+        price: "Ksh.(1500)+",
+        items: ["Multiple Techniques", "3D Jelly Art", "Mix & Match Designs", "Detailed Custom Art", "Maximalist Designs"],
     },];
 export default function DesignTiers() {
   return (
@@ -24,8 +27,8 @@ export default function DesignTiers() {
       className="min-h-screen flex flex-col justify-center py-20"
     >
       {/* Heading */}
-      <div className="text-center mb-12">
-        <h2 className="text-black text-sm">
+      <div className="text-center mb-12 ">
+        <h2 className="text-black text-lg bg-black/10 p-1.5 w-25% rounded-xl shadow-md inline-block">
           Design Tiers
         </h2>
 
@@ -35,17 +38,17 @@ export default function DesignTiers() {
       </div>
 
       {/* Tiers */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-black">
         {tiers.map((tier) => (
           <div
             key={tier.tier}
-            className="bg-(--pink) p-8 min-h-96"
+            className="bg-(--wwhite) p-8 min-h-96 shadow-md transition rounded-xl duration-300 hover:-translate-y-2 hover:rotate-2 "
           >
-            <p className="text-sm">
+            <p className="text-md font-bold">
               {tier.tier}
             </p>
 
-            <h3 className="text-xl font-medium mt-2">
+            <h3 className="text-2xl text-md mt-2 text-bold">
               {tier.name}
             </h3>
 
@@ -53,7 +56,7 @@ export default function DesignTiers() {
               {tier.price}
             </p>
 
-            <ul className="mt-8 space-y-2 text-sm">
+            <ul className="mt-8 space-y-2 text-md">
               {tier.items.map((item) => (
                 <li key={item}>
                   • {item}
@@ -66,12 +69,7 @@ export default function DesignTiers() {
 
       {/* Next section */}
       <div className="flex justify-center mt-12">
-        <a
-          href="#booking"
-          className="bg-(--brown) text-white px-8 py-3 rounded-full text-sm"
-        >
-          CONTINUE TO BOOKING
-        </a>
+        <Button text="Book an Appointment" href="#booking"/>
       </div>
     </section>
   );

@@ -11,7 +11,7 @@ export default function Hero () {
                     <h1 className="text-3xl md:text-5xl font-bold tracking-[.45em] black text-var[(--pink)] uppercase mb-8">
                         Eclectic Nails
                     </h1>
-                    <ul className="space-y-3 text-sm md:text-base text-white font-light">
+                    <ul className="space-y-3 text-lg md:text-base text-white font-light">
                         <li>• Professional Nail Services</li>
                         <li>• Affordable Prices</li>
                         <li>• Best Services</li>

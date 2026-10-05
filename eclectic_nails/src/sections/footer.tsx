@@ -12,11 +12,11 @@ export default function Footer() {
 
         {/* Navigation */}
         <div className="flex gap-8 text-white text-sm">
-          <a href="#home">Home</a>
-          <a href="#services">Services</a>
-          <a href="#design-tiers">Design Tiers</a>
-          <a href="#booking">Booking</a>
-          <a href="#contact">Contact</a>
+          <a className="hover:font-bold hover:rotate-4" href="#home">Home</a>
+          <a className="hover:font-bold hover:rotate-4" href="#services">Services</a>
+          <a className="hover:font-bold hover:rotate-4" href="#design-tiers">Design Tiers</a>
+          <a className="hover:font-bold hover:rotate-4" href="#booking">Booking</a>
+          <a className="hover:font-bold hover:rotate-4" href="https://www.instagram.com/eclecticnailske">Contact</a>
         </div>
 
         {/* Copyright */}
