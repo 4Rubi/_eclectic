@@ -7,10 +7,12 @@ import DesignTiers from "./sections/designtiers"
 import Booking from "./sections/booking"
 import Footer from "./sections/footer"
 import BookingModal from "./components/bookingmodal";
-import ScrollStack, { ScrollStackItem } from './components/scrollStackitem'
 import "./Index.css"
 
-export default function App() {
+type ServicesProps = {
+  onBookNow: () => void;
+};
+export default function App({}: ServicesProps) {
   const [bookingOpen, setBookingOpen] = useState(false);
 
   const openBooking = () => {
@@ -25,7 +27,7 @@ export default function App() {
       <div className="max-w-7xl mx-auto px-6 lg:px-10">
         <Navbar />
         <Hero />
-        <Services onBookNow={openBooking} />
+        <Services />
         <DesignTiers/>
         <Booking onBookNow={openBooking}/>
         <Footer />

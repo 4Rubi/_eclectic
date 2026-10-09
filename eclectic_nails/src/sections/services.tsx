@@ -7,9 +7,6 @@ import pressonsImg from "../assets/presson.jpg";
 import tipsgelImg from "../assets/tips&gel.jpg";
 {/*import { MdDescription } from "react-icons/md";*/}
 
-type ServicesProps = {
-  onBookNow: () => void;
-};
 
 const services = [
   {
@@ -34,7 +31,7 @@ const services = [
   },
 ];
 
-export default function Services({onBookNow}: ServicesProps) {
+export default function Services() {
   return (
     <section id="services" className="min-h-screen flex flex-col justify-center py-20">
       <div className="text-center mb-12">
