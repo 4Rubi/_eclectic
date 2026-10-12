@@ -7,7 +7,7 @@ import DesignTiers from "./sections/designtiers"
 import Booking from "./sections/booking"
 import Footer from "./sections/footer"
 import BookingModal from "./components/bookingmodal";
-import "./Index.css"
+import "./index.css"
 
 type ServicesProps = {
   onBookNow: () => void;
